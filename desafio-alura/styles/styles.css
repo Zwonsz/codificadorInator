@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+--cor-dark-blue:#0A3871;
+--cor-light-blue: #f3f5fc;
+--cor-white: #ffffff;
+--cor-gray:#495057;
+
+
+
+--fonte-principal: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-light-blue);
+    font-family: var(--fonte-principal);
+    height: 100vh;
+   
+}
+
+header{
+    padding: 2.5rem 0 0 0;
+}
+
+.main{
+    display: flex;
+    padding-left: 15.5rem;
+
+}
+
+.main__titulo {
+    color: var(--cor-dark-blue);
+}
+
+.main__aviso{
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.main__botao{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-weight: 400;
+    padding: 0; //0 0 7.5rem 0
+    
+    
+}
+
+
+.main__botao__descriptografar{
+    
+   color: var(--cor-dark-blue);
+    border: 1px solid var(--cor-dark-blue);
+    border-radius: 24px;
+    padding: 1.5rem 10.5rem;
+    background-color: #D8DFE8;
+    cursor: pointer;
+
+}
+
+.main__botao__criptografar{
+    color: var(--cor-white);
+    border-radius: 24px;
+    padding: 1.5rem 10.5rem;
+    background-color: var(--cor-dark-blue);
+    cursor:pointer;
+
+}
+
+#btn-copiar{
+    color: var(--cor-dark-blue);
+    border: 1px solid var(--cor-dark-blue);
+    border-radius: 24px;
+    padding: 1.5rem 10.5rem;
+    background-color:transparent;
+    cursor: pointer;
+   
+}
+
+.main__text{
+font-family: var(--fonte-principal);
+color: var(--cor-dark-blue);
+background-color: var(--cor-light-blue);
+padding: 10rem 5rem 5rem;
+outline: none;
+border: 1px solid var(--cor-light-blue);
+border-radius: 0.5rem;
+width: 800px; 
+height: 450px;
+font-size: 2.25rem;
+text-align: center;
+resize: none;
+}
+
+#texto-saida{
+    width: 345px;
+    height: 730px;
+    font-size: 20px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    font-family: var(--fonte-principal);
+    color: var(--cor-dark-blue);
+}
+
+.resultado{
+    background: var(--cor-white);
+    width: 400px;
+    height: 825px;
+    border-radius: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resultado__imagem{
+margin-bottom: 1rem;
+
+}
+
+.resultado__titulo{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    max-width: 80%;
+    text-align: center;
+  
+}
+
+.resultado__aviso {
+    margin-top: 1rem;
+    max-width: 80%;
+    text-align: center;
+    font-size: 0.85rem;
+    
+}
+
+.rodape{
+
+    color: var(--cor-white);
+    background-color: var(--cor-dark-blue);
+    margin: 2rem 0 0 0;
+    padding: 1.07rem;
+    text-align: center  ;
+}
+
+
+  .icones ion-icon{
+    width: 2rem;
+    height: 2rem;
+    color: var(--cor-gray);
+    padding-left: 1rem;
+}
+
+@media (max-width: 1500px){
+ 
+}
